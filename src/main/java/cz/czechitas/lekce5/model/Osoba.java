@@ -13,6 +13,28 @@ public class Osoba {
     private String pracovniEmail;
     private Adresa adresa;
 
+    public String getSoukromyEmail() {
+        return soukromyEmail;
+    }
+    public void setSoukromyEmail(String soukromyEmail) {
+        this.soukromyEmail = soukromyEmail;
+    }
+
+    public String getPracovniEmail() {
+        return pracovniEmail;
+    }
+
+    public void setPracovniEmail(String pracovniEmail) {
+        this.pracovniEmail = pracovniEmail;
+    }
+
+    public Adresa getAdresa() {
+        return adresa;
+    }
+
+    public void setAdresa(Adresa adresa) {
+        this.adresa = adresa;
+    }
 
     public String getJmeno() {
         return jmeno;
@@ -66,7 +88,7 @@ public class Osoba {
     }
 
     public String toString() {
-        return jmeno + " " + prijmeni + " (" + rodneCislo + ")";
+        return jmeno + " " + prijmeni + " (" + rodneCislo + ")" + adresa;
     }
 }
 

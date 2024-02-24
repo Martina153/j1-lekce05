@@ -24,7 +24,7 @@ public class Adresa {
         if (isValidString(ulice)) {
             this.ulice = ulice;
         } else {
-            System.out.println("Chyba: Ulice nesmí být null nebo prázdný řetězec.");
+            System.err.println("Chyba: Ulice nesmí být null nebo prázdný řetězec.");
         }
     }
 
@@ -44,7 +44,7 @@ public class Adresa {
         if (isValidString(obec)) {
             this.obec = obec;
         } else {
-            System.out.println("Chyba: Obec nesmí být null nebo prázdný řetězec.");
+            System.err.println("Chyba: Obec nesmí být null nebo prázdný řetězec.");
         }
     }
     public String getPsc() {
@@ -55,7 +55,7 @@ public class Adresa {
         if (isValidPSC(psc)) {
             this.psc = psc;
         } else {
-            System.out.println("Chyba: Neplatné PSČ.");
+            System.err.println("Chyba: Neplatné PSČ.");
         }
     }
     public String toString() {
