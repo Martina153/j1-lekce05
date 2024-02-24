@@ -14,6 +14,8 @@ public class HlavniProgram {
         //TODO tady bude náš kód
 
         System.out.println("Slavnostně přísahám, že jsem připraven ke každé špatnosti.");
+
+
     }
 
 }

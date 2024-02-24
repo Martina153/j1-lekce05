@@ -9,6 +9,11 @@ public class Osoba {
 
     private Telefon telefon;
 
+    private String soukromyEmail;
+    private String pracovniEmail;
+    private Adresa adresa;
+
+
     public String getJmeno() {
         return jmeno;
     }
